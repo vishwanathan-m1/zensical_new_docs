@@ -2,7 +2,7 @@ name: Test Push Workflow
 on: push
 jobs:
    first-job:
-     runs on: ubuntu-latest
+     runs-on: ubuntu-latest
      steps: 
         - name: Get code
           uses: actions/checkout
