@@ -1,0 +1,14 @@
+name: Test Push Workflow
+on:
+    push:
+        branches:
+        - master
+        - main
+jobs:
+   first-job:
+     runs-on: ubuntu-latest
+     steps: 
+        - name: Get code
+          uses: actions/checkout@v5
+        - name: Print
+          run: echo "Done.."  
