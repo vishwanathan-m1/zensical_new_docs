@@ -1,0 +1,19 @@
+name: Zensical Documentation
+on:
+    push:
+        branches:
+        - main
+jobs:
+   deploy:
+     runs-on: ubuntu-latest
+     steps:
+        - uses: actions/checkout@v5
+        - uses: actions/setup-python@v6
+          with:
+            python-version: 3.x      
+        - run: pip install zensical
+        - run: zensical build --clean
+        - uses: actions/upload-pages-artifact@v4
+          with:
+            path: site
+        - uses: actions/deploy-pages@v4

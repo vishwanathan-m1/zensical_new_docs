@@ -2,7 +2,7 @@ name: Test Push Workflow
 on:
     push:
         branches:
-        - main
+        - main1
 jobs:
    first-job:
      runs-on: ubuntu-latest
