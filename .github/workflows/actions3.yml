@@ -2,7 +2,7 @@ name: Zensical Documentation
 on:
     push:
         branches:
-        - main
+        - actions4
 permissions:
     contents: read
     pages: write
