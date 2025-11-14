@@ -6,7 +6,7 @@ icon: lucide/rocket
 
 For full documentation visit [zensical.org](https://zensical.org/docs/).
 
-## Commands
+## Commands 
 
 * [`zensical new`][new] - Create a new project
 * [`zensical serve`][serve] - Start local web server
