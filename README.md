@@ -1,6 +1,6 @@
 # Zensical Docs
 
-### About this Repository:
+### About this Repository
 
 - This is a mini project repository created to generate modern document sites made with Zensical. 
 
@@ -13,3 +13,6 @@
 - GitHub repository link: [https://github.com/vishwanathan-m1/zensical_new_docs](https://github.com/vishwanathan-m1/zensical_new_docs)
 
 - Live document site link: [https://vishwanathan-m1.github.io/zensical_new_docs/](https://vishwanathan-m1.github.io/zensical_new_docs/)
+
+
+![Zensical](./docs/zensical2.png)
