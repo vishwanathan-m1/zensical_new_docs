@@ -1,2 +1,12 @@
 [project]
 site_name = "New Zensical Documentation"
+site_url = "https://vishwanathan-m1.github.io/zensical_new_docs/"
+site_description = "This is site description"
+site_author = "Vishwanathan"
+
+copyright = """
+Copyright &copy; 2020-2026, HCLSoftware &nbsp;|&nbsp;
+<a href="https://www.hcltechsw.com/legal/disclaimer" target="_blank" rel="noopener">Disclaimer</a> &nbsp;|&nbsp;
+<a href="https://www.hcltechsw.com/legal/privacy" target="_blank" rel="noopener">Privacy</a> &nbsp;|&nbsp;
+<a href="https://www.hcltechsw.com/legal/terms-use" target="_blank" rel="noopener">Terms of use</a>
+"""
