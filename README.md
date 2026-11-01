@@ -15,4 +15,4 @@
 - Live document site link: [https://vishwanathan-m1.github.io/zensical_new_docs/](https://vishwanathan-m1.github.io/zensical_new_docs/)
 
 
-![Zensical](./docs/zensical1.png)
+![Zensical](source/zensical1.png)

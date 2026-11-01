@@ -10,3 +10,5 @@ Copyright &copy; 2020-2026, HCLSoftware &nbsp;|&nbsp;
 <a href="https://www.hcltechsw.com/legal/privacy" target="_blank" rel="noopener">Privacy</a> &nbsp;|&nbsp;
 <a href="https://www.hcltechsw.com/legal/terms-use" target="_blank" rel="noopener">Terms of use</a>
 """
+
+docs_dir = "source"
