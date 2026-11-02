@@ -25,7 +25,7 @@ draft_docs = """
 Module-1/draft1.md
 """
 
-# not_in_nav: left side navigation link is not displayed. But html page created and built for serve and build.
+# not_in_nav: left side navigation link is not displayed. But html page created and built for serve and build. Included in search
 not_in_nav = """
 Module-1/not_in_nav1.md
 """
