@@ -12,3 +12,4 @@ Copyright &copy; 2020-2026, HCLSoftware &nbsp;|&nbsp;
 """
 
 docs_dir = "source"
+site_dir = "docs"
