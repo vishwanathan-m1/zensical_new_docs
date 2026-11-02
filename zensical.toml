@@ -14,6 +14,18 @@ Copyright &copy; 2020-2026, HCLSoftware &nbsp;|&nbsp;
 docs_dir = "source"
 site_dir = "docs"
 use_directory_urls = false
+
+# exclude_docs: html page created only for serve but not for build. 
+exclude_docs = """
+Module-1/exclude_docs1.md
+"""
+
+# draft_docs: html page created only for serve but not for build. 
 draft_docs = """
 Module-1/draft1.md
+"""
+
+# not_in_nav: left side navigation link is not displayed. But html page created and built for serve and build.
+not_in_nav = """
+Module-1/not_in_nav1.md
 """
