@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # Module-1-File-2
 
 !!! note

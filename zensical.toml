@@ -3,6 +3,9 @@ site_name = "New Zensical Documentation"
 site_url = "https://vishwanathan-m1.github.io/zensical_new_docs/"
 site_description = "This is site description"
 site_author = "Vishwanathan"
+repo_url = "https://github.com/vishwanathan-m1/zensical_new_docs"
+repo_name = "zensical_new_docs"
+edit_uri = "edit/main/source/"
 
 copyright = """
 Copyright &copy; 2020-2026, HCLSoftware &nbsp;|&nbsp;
@@ -29,3 +32,70 @@ Module-1/draft1.md
 not_in_nav = """
 Module-1/not_in_nav1.md
 """
+
+watch = [
+  "watch_yes"
+]
+
+#[project.markdown_extensions.pymdownx.snippets]
+#base_path = ["."]
+
+# Palette toggle for light mode
+[[project.theme.palette]] 
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.theme]
+custom_dir = "theme_overrides"
+logo = "assets/images/logo-v-purple.svg"
+favicon = "assets/images/favicon.svg"
+features = [
+  #"header.autohide",
+  "announce.dismiss",
+  "navigation.footer",
+  "navigation.top",
+  "content.action.edit", # Edit this page
+  "content.action.view" # View source of this page
+]
+
+[project.theme.icon]
+repo = "fontawesome/brands/git-alt"
+#logo = "lucide/radio-tower"
+# customization for navigation.footer
+#previous = "fontawesome/solid/angle-left"
+#next = "fontawesome/solid/angle-right"
+
+
+
+[project.extra]
+homepage = "https://zensical.org/"
+#generator = false
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/vishwanathan-m1/zensical_new_docs"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/x-twitter"
+link = "https://x.com/zensical"
+name = "Zensical on X"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/mastodon"
+link = "https://fosstodon.org/@zensical"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/slack"
+link = "https://github.com/vishwanathan-m1/zensical_new_docs"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/plane"
+link = "mailto:vishwanathan.m@hcl-software.com"
+name = "mail to Vishwa"
