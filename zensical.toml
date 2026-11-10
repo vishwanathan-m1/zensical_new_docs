@@ -33,9 +33,9 @@ not_in_nav = """
 Module-1/not_in_nav1.md
 """
 
-watch = [
-  "watch_yes"
-]
+#watch = [
+  #"watch_yes"
+#]
 
 #[project.markdown_extensions.pymdownx.snippets]
 #base_path = ["."]
