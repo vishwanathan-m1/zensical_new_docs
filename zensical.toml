@@ -103,4 +103,4 @@ name = "mail to Vishwa"
 [project.extra.version]
 provider = "mike"
 default = "latest"
-alias = true
+alias = false
