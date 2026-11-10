@@ -1,0 +1,9 @@
+site/*
+theme_overrides/*
+docs/*
+.DS_Store
+__pycache__/
+*.pyc
+
+# cd hooks
+# git rm -r --cached __pycache__
