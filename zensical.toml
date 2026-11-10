@@ -99,3 +99,8 @@ link = "https://github.com/vishwanathan-m1/zensical_new_docs"
 icon = "fontawesome/solid/plane"
 link = "mailto:vishwanathan.m@hcl-software.com"
 name = "mail to Vishwa"
+
+[project.extra.version]
+provider = "mike"
+default = "latest"
+alias = true
