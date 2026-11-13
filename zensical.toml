@@ -11,7 +11,8 @@ copyright = """
 Copyright &copy; 2020-2026, HCLSoftware &nbsp;|&nbsp;
 <a href="https://www.hcltechsw.com/legal/disclaimer" target="_blank" rel="noopener">Disclaimer</a> &nbsp;|&nbsp;
 <a href="https://www.hcltechsw.com/legal/privacy" target="_blank" rel="noopener">Privacy</a> &nbsp;|&nbsp;
-<a href="https://www.hcltechsw.com/legal/terms-use" target="_blank" rel="noopener">Terms of use</a>
+<a href="https://www.hcltechsw.com/legal/terms-use" target="_blank" rel="noopener">Terms of use</a> &nbsp;|&nbsp;
+<a href="#__consent">Change cookie settings</a>
 """
 
 docs_dir = "source"
@@ -103,3 +104,22 @@ name = "mail to Vishwa"
 [project.extra.version]
 provider = "mike"
 default = "latest"
+
+[project.extra.consent]
+title = "Cookie consent"
+description = """
+  We use cookies to recognize your repeated visits and preferences, as well
+  as to measure the effectiveness of our documentation and whether users
+  find what they're searching for. With your consent, you're helping us to
+  make our documentation better.
+"""
+actions = [
+  "accept",
+  "reject",
+  "manage", 
+] 
+
+[project.extra.consent.cookies]
+analytics.name = "Google Analytics"
+analytics.checked = false
+analytics.custom = "Custom cookie"
